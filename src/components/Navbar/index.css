@@ -1,0 +1,115 @@
+.nav-items{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.sub-container{
+    display: flex;;
+    flex-direction:row;
+    align-items:center;
+    gap: 150px;
+    justify-content: center;
+    
+}
+.logo{
+    font-family:sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    color:#000000
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-app{
+    width:52px;
+    height:16x;
+
+}
+.icon-image{
+    width:50px;
+    height:15px;
+    gap: 5px;
+}
+.sub-secs{
+    width:52px;
+    height:24px;
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+}
+.arrow{
+    width:25px;
+    height:25px;
+    margin:auto;
+}
+.items{
+    
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color:#000000;
+    margin:10px;
+}
+.hiden-filter{
+    font-family:"Adobe Caslon Pro";
+    font-size:25px;
+    color:#888792;
+    text-decoration: underline;
+}
+.filter-con{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.second-part{
+    display: flex;
+    flex-direction: row;
+}
+.arrow-arrange{
+    display:flex;
+    flex-direction:row;
+}
+.below-section{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .heading-part {
+      font-size: 40px;
+    }
+    .search {
+      width: 250px;
+      font-size: 20px;
+    }
+    .product-card {
+      width: 300px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    .heading-part {
+      font-size: 30px;
+    }
+    .search {
+      width: 200px;
+      font-size: 16px;
+    }
+    .product-card {
+      width: 250px;
+    }
+  }
+  
+

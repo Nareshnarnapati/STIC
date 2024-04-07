@@ -1,4 +1,4 @@
-import Allimages from "./components/Allimages";
+import Allimages from "./components/Allproducts";
 
 function App() {
   return (
