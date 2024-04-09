@@ -1,11 +1,12 @@
-import Allimages from "./components/Allproducts";
+import Allmovies from "./components/Allproducts";
+
 
 function App() {
   return (
     <div className="App">
      
       <main>
-        <Allimages />
+        <Allmovies />
       </main>
     </div>
   );

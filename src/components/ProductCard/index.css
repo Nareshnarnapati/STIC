@@ -1,17 +1,30 @@
-.product-image{
-    text-align:center;
+.poster-design{
+    width:400px;
+    height:350px;
+    text-align: center;
+    border-radius:5px;
 }
+
+
+
 p{
     font-family:sans-serif;
     font-size:17px;
+    color:#ffffff;
+    font-size:20px;
 }
 .span-line{
     font-family:sans-serif;
-    font-size:15px;
-    color:red;
+    font-size:27px;
+    color:darkred;
+}
+.over-view{
+    color:dimgray;
+    font-size:25px;
+    font-family:sans-serif;
 }
 .span-line2{
     font-family:sans-serif;
-    font-size:15px;
+    font-size:20px;
     color:darkviolet;
 }
