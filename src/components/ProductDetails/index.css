@@ -1,0 +1,103 @@
+/* Movie Details Container */
+.movie-details {
+  padding: 30px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #000;
+  z-index: 999;
+}
+
+/* Button Styles */
+.button-card {
+  width: 150px;
+  height: 50px;
+  background-color: darkorange;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: yellow;
+  align-self: center;
+  font-weight: bold;
+}
+
+/* Image Styles */
+.image-card {
+  width: 40%;
+  height: 20%;
+  align-self: center;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+/* Movie Title Styles */
+.movie-card-h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: darkred;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 25px;
+  color: darkred;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* Additional Information Styles */
+.over-span {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+/* Media Query for Mobile View */
+@media screen and (max-width: 768px) {
+  .movie-details {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    margin-top: -50%;
+    padding: 15px;
+    border-width: 1px;
+    font-size: 16px;
+  }
+
+  .button-card {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .image-card {
+    width: 80%;
+    height: auto;
+    max-height: 150px;
+    margin-top: 15px;
+  }
+
+  .movie-card-h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .over-span {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,28 @@
+.navcon{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
+  background-color: darkgoldenrod;
+  opacity: 90%;
+  
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  gap:200px;
+}
+.nav-para{
+  font-family:sans-serif;
+  font-weight:bolder;
+  font-size:30px;
+  color:darkred;
+  font-weight: bold;
+}
+.nav-heading{
+  color:darkred;
+  font-family: sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  padding-left:10px;
+}
